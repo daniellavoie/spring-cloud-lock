@@ -1,0 +1,10 @@
+info:
+  component: Lock Server
+spring:
+  application:
+    name: lockserver
+  jmx:
+    default_domain: cloud.lock.server
+    
+server:
+  port: 8666 
